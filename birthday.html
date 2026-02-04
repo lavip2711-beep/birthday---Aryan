@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Happy Birthday Aryan</title>
+
+    <style>
+        /* Page background */
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* Main banner card */
+        .banner {
+            background: #ffffff;
+            padding: 40px 50px;
+            border-radius: 20px;
+            text-align: center;
+            max-width: 520px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Floating decorative emojis */
+        .decor {
+            position: absolute;
+            font-size: 1.6rem;
+            animation: float 4s infinite ease-in-out;
+        }
+
+        .decor1 { top: 15px; left: 20px; animation-delay: 0s; }
+        .decor2 { top: 25px; right: 25px; animation-delay: 1s; }
+        .decor3 { bottom: 20px; left: 30px; animation-delay: 2s; }
+        .decor4 { bottom: 25px; right: 30px; animation-delay: 3s; }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-12px); }
+        }
+
+        /* Title animation */
+        .title {
+            font-size: 2.4rem;
+            color: #ff5e78;
+            animation: pop 1.2s ease-out;
+        }
+
+        @keyframes pop {
+            0% { transform: scale(0); }
+            80% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+
+        /* Cake animation */
+        .cake {
+            font-size: 3rem;
+            margin: 15px 0;
+            animation: bounce 1.5s infinite;
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+
+        /* Message text */
+        .message {
+            font-size: 1.05rem;
+            color: #555;
+            line-height: 1.6;
+            margin-top: 10px;
+        }
+
+        /* Footer message */
+        .footer {
+            margin-top: 25px;
+            font-style: italic;
+            color: #777;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="banner">
+
+        <!-- Decorative emojis -->
+        <div class="decor decor1">🎈</div>
+        <div class="decor decor2">⭐</div>
+        <div class="decor decor3">🎁</div>
+        <div class="decor decor4">😊</div>
+
+        <!-- Birthday title -->
+        <div class="title">
+            🎉 Happy Birthday Aryan!
+            aka Mr. Bhullakad 🎉
+        </div>
+
+        <!-- Cake emoji -->
+        <div class="cake">🎂</div>
+
+        <!-- Birthday message -->
+        <div class="message">
+            Wishing a very happy birthday to a wonderful soul from your school family.<br><br>
+            Another year older, another year wiser —<br>
+            learning, growing, achieving things…<br>
+            yet always young at heart 😊
+        </div>
+
+        <!-- Footer note -->
+        <div class="footer">
+            From someone who’s truly glad to know you as a friend,<br>
+           -lavi (who remembers the little things)💙
+        </div>
+
+    </div>
+
+</body>
+</html>
+
+
